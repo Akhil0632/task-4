@@ -64,3 +64,26 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+
+### Project Setup
+
+- **Clone the repo - git clone https://github.com/Akhil0632/task-4.git**
+- **Open the terminal and change the directory to the project directory - cd task-4**
+- **Create .env and copy .env.example**
+- **Set up your database connection in the .env file :-**
+-   **DB_CONNECTION=mysql
+      DB_HOST=127.0.0.1    
+      DB_PORT=3306
+      DB_DATABASE=api-integration
+      DB_USERNAME=your_username
+      DB_PASSWORD=your_password**
+- **Install dependencies - composer install**
+- **Make sure you have your key generated. If not, Generate key with this command - php artisan key:generate**
+- **Run migration - php artisan migrate**
+- **Run project - php artisan serve**
+
+### URL of Project 
+- **Visit the url http://127.0.0.1:8000/users to get into the application. This page is the users index page. User details like Name, Email and Address are displayed in tbale format. Also there is Search bar to filter users by name.**
+
