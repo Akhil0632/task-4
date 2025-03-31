@@ -73,12 +73,12 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 - **Open the terminal and change the directory to the project directory - cd task-4**
 - **Create .env and copy .env.example**
 - **Set up your database connection in the .env file :-**
--     **DB_CONNECTION=mysql**
--     **DB_HOST=127.0.0.1**
--     **DB_PORT=3306**
--     **DB_DATABASE=api-integration**
--     **DB_USERNAME=your_username**
--     **DB_PASSWORD=your_password**
+-     DB_CONNECTION=mysql
+-     DB_HOST=127.0.0.1
+-     DB_PORT=3306
+-     DB_DATABASE=api-integration
+-     DB_USERNAME=your_username
+-     DB_PASSWORD=your_password
 - **Install dependencies - composer install**
 - **Make sure you have your key generated. If not, Generate key with this command - php artisan key:generate**
 - **Run migration - php artisan migrate**
